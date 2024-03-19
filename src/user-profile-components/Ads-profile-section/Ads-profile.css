@@ -1,0 +1,120 @@
+.container{
+display: flex;
+gap: 20px;
+
+}
+.sidebar {
+    width: 180px;
+    min-height: 100vh;
+    background-color: skyblue;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    margin-top: 4px;
+    border-radius: 2px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .content {
+    margin-left: 120px; /* Adjust based on sidebar width */
+    padding: 20px;
+  }
+  
+  .main-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+  }
+
+
+
+  /* ///////// PublishAd style page//////////// */
+
+
+  .ad-form-container {
+    width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .row-ads{
+    display: flex;
+    width: 690px !important;
+    gap: 20px;
+    margin-top: 12px;
+    align-items: center;
+  
+  }
+  .row-ads div {
+   
+    width: 340px !important;
+   
+  
+  } 
+   .row-ads  div{
+   
+    width: 340px !important;
+}  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select,
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .confirmation-checkbox{
+display: flex;
+gap: 6px;
+align-items: center;
+  }
+  .confirmation-checkbox input{
+   margin-top: -8px;
+      }
+ 
